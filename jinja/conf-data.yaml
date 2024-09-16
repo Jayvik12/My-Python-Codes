@@ -1,0 +1,5 @@
+---
+intf_name: gig0/1
+desc: Connected to Server 1
+speed: 1000
+duplex: full

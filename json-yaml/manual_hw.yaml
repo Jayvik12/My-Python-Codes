@@ -1,0 +1,162 @@
+---
+
+- site-A:
+  sw1:
+    - desc: Connected to Server 1
+      duplex: full
+      intf_name: gig0/1
+      speed: 1000
+    - desc: Connected to Server 2
+      duplex: full
+      intf_name: gig0/2
+      speed: 1000
+    - desc: Connected to Server 3
+      duplex: full
+      intf_name: gig0/3
+      speed: 1000
+    - desc: Connected to Server 4
+      duplex: full
+      intf_name: gig0/4
+      speed: 1000
+  sw2:
+    - desc: Connected to Server 1
+      duplex: full
+      intf_name: gig0/1
+      speed: 1000
+    - desc: Connected to Server 2
+      duplex: full
+      intf_name: gig0/2
+      speed: 1000
+    - desc: Connected to Server 3
+      duplex: full
+      intf_name: gig0/3
+      speed: 1000
+    - desc: Connected to Server 4
+      duplex: full
+      intf_name: gig0/4
+      speed: 1000
+  sw3:
+    - desc: Connected to Server 1
+      duplex: full
+      intf_name: gig0/1
+      speed: 1000
+    - desc: Connected to Server 2
+      duplex: full
+      intf_name: gig0/2
+      speed: 1000
+    - desc: Connected to Server 3
+      duplex: full
+      intf_name: gig0/3
+      speed: 1000
+    - desc: Connected to Server 4
+      duplex: full
+      intf_name: gig0/4
+      speed: 1000    
+
+
+- site-B:
+  sw1:
+    - desc: Connected to Server 1
+      duplex: full
+      intf_name: gig0/1
+      speed: 1000
+    - desc: Connected to Server 2
+      duplex: full
+      intf_name: gig0/2
+      speed: 1000
+    - desc: Connected to Server 3
+      duplex: full
+      intf_name: gig0/3
+      speed: 1000
+    - desc: Connected to Server 4
+      duplex: full
+      intf_name: gig0/4
+      speed: 1000
+  sw2:
+    - desc: Connected to Server 1
+      duplex: full
+      intf_name: gig0/1
+      speed: 1000
+    - desc: Connected to Server 2
+      duplex: full
+      intf_name: gig0/2
+      speed: 1000
+    - desc: Connected to Server 3
+      duplex: full
+      intf_name: gig0/3
+      speed: 1000
+    - desc: Connected to Server 4
+      duplex: full
+      intf_name: gig0/4
+      speed: 1000
+  sw3:
+    - desc: Connected to Server 1
+      duplex: full
+      intf_name: gig0/1
+      speed: 1000
+    - desc: Connected to Server 2
+      duplex: full
+      intf_name: gig0/2
+      speed: 1000
+    - desc: Connected to Server 3
+      duplex: full
+      intf_name: gig0/3
+      speed: 1000
+    - desc: Connected to Server 4
+      duplex: full
+      intf_name: gig0/4
+      speed: 1000    
+
+
+- site-C:
+  sw1:
+    - desc: Connected to Server 1
+      duplex: full
+      intf_name: gig0/1
+      speed: 1000
+    - desc: Connected to Server 2
+      duplex: full
+      intf_name: gig0/2
+      speed: 1000
+    - desc: Connected to Server 3
+      duplex: full
+      intf_name: gig0/3
+      speed: 1000
+    - desc: Connected to Server 4
+      duplex: full
+      intf_name: gig0/4
+      speed: 1000
+  sw2:
+    - desc: Connected to Server 1
+      duplex: full
+      intf_name: gig0/1
+      speed: 1000
+    - desc: Connected to Server 2
+      duplex: full
+      intf_name: gig0/2
+      speed: 1000
+    - desc: Connected to Server 3
+      duplex: full
+      intf_name: gig0/3
+      speed: 1000
+    - desc: Connected to Server 4
+      duplex: full
+      intf_name: gig0/4
+      speed: 1000
+  sw3:
+    - desc: Connected to Server 1
+      duplex: full
+      intf_name: gig0/1
+      speed: 1000
+    - desc: Connected to Server 2
+      duplex: full
+      intf_name: gig0/2
+      speed: 1000
+    - desc: Connected to Server 3
+      duplex: full
+      intf_name: gig0/3
+      speed: 1000
+    - desc: Connected to Server 4
+      duplex: full
+      intf_name: gig0/4
+      speed: 1000          

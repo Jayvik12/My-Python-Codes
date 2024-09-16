@@ -1,0 +1,30 @@
+--- ## triple "---" is mandatory for starting of Yaml file
+
+vendor: cisco
+model: Catalyst9300
+intf_info: 
+  desc: Connected to server 1
+  speed: 1000
+  intf_names: 
+    - gig0/1
+    - gig0/2
+    - gig0/3 
+
+
+intf_conf_data: ###Need to ask
+- intf_name: gig0/1
+  desc: Connected to server 1
+  speed: 1000
+  duplex: full
+- intf_name: gig0/2
+  desc: Connected to server 2
+  speed: 1000
+  duplex: full
+- intf_name: gig0/3
+  desc: Connected to server 3
+  speed: 1000
+  duplex: full
+- intf_name: gig0/4
+  desc: Connected to server 4
+  speed: 1000
+  duplex: full
