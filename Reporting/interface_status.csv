@@ -1,0 +1,5 @@
+Interface,IP-Address,OK?,Method,Status,Protocol
+FastEthernet0/0,192.168.231.141,YES,DHCP,up,up
+FastEthernet0/1,unassigned,YES,NVRAM,administratively,down
+FastEthernet1/0,unassigned,YES,NVRAM,administratively,down
+Loopback0,10.1.1.1,YES,NVRAM,up,up
