@@ -1,0 +1,25 @@
+---
+
+- name: Play A
+  hosts: localhost
+  gather_facts: false
+  vars:
+    device: "router"
+
+  tasks: #syntax
+    - name: H
+      debug: #keyword just lika a print statement
+        msg: "Hello World!"
+
+    - name: Y
+      debug :
+        #var: "Ram Ram"    
+        var: device
+
+    - name: Set fact for source ip
+      set_fact: #Ansible module and it cant be used as Vars before
+        src_ip: "testing set fact for source ip 10.1.1.1"
+
+    - name: Display set fact value
+      debug:
+        var: src_ip          

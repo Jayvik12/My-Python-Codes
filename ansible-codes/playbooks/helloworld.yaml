@@ -1,0 +1,10 @@
+---
+
+- name: Play A
+  hosts: localhost
+  gather_facts: false
+
+  tasks: #syntax
+    - name: Hello World
+      debug: #keyword just lika a print statement
+        msg: "Hello World!"
