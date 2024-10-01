@@ -1,5 +1,4 @@
 ---
-
 - name: Play A
   hosts: localhost
   gather_facts: false

@@ -1,10 +1,10 @@
 ---
 
-- name: Play A
+- name: Playbook 1st
   hosts: localhost
   gather_facts: false
 
   tasks: #syntax
-    - name: Hello World
+    - name: Task 1
       debug: #keyword just lika a print statement
         msg: "Hello World!"
