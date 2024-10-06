@@ -1,0 +1,45 @@
+---
+- name: Play A
+  hosts: localhost
+  gather_facts: false
+  vars:
+    device_type: "Router"
+    devices: 
+      - "R1"
+      - "R2"
+      - "R3"
+    device_creds: 
+      user_name: "admin"
+      password: "ansible"
+    ip : " 10.1.1.1  "  
+
+
+
+  tasks: #syntax
+    # - name:  "1010 - OUTPUT DEVICE TYPE"
+    #   debug: #keyword just lika a print statement
+    #     # var: "device_type[0:2]"
+    #     msg: "{{ device_type[0:2] }}"
+    #     msg: "{{ device_type | upper | lower | upper }}"
+    #     var: "device_type | upper | lower | upper"
+    #     msg: "{{ device_type.upper() }}"
+    #     msg: "Device name is {{ device_type.upper() }}"
+    #     msg: "Device name is {{ device_type.upper().replace('ROU', 'Myrouter') }}"
+    #     var: "device_type.upper()"
+
+    # - name: "1020 - OUTPUT DEVICE DATA"
+    #   debug :            
+    #     var: devices[0]
+
+    # - name: "1030 - OUTPUT DEVICE CREDS"
+    #   debug:
+    #     var: device_creds
+
+    - name: "1040 - IP stripping"
+      debug: 
+        # var: "ip.strip()"
+        # var: "ip.isalpha()" 
+        # var: "ip.strip().split('.')"
+        var: "'.'.join(ip.strip().split('.'))"
+
+      
