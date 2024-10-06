@@ -27,19 +27,23 @@
     #     msg: "Device name is {{ device_type.upper().replace('ROU', 'Myrouter') }}"
     #     var: "device_type.upper()"
 
-    # - name: "1020 - OUTPUT DEVICE DATA"
-    #   debug :            
-    #     var: devices[0]
+    - name: "1020 - OUTPUT DEVICE DATA"
+      debug :            
+        var: devices[2]
+        var: devices[0]
+        var: devices[1]
+    
 
-    # - name: "1030 - OUTPUT DEVICE CREDS"
-    #   debug:
-    #     var: device_creds
+    - name: "1030 - OUTPUT DEVICE CREDS"
+      debug:
+        var: " device_creds.user_name "
+        var: " device_creds.user_name[0:2] "
 
-    - name: "1040 - IP stripping"
-      debug: 
-        # var: "ip.strip()"
-        # var: "ip.isalpha()" 
-        # var: "ip.strip().split('.')"
-        var: "'.'.join(ip.strip().split('.'))"
+    # - name: "1040 - IP stripping"
+    #   debug: 
+    #     # var: "ip.strip()"
+    #     # var: "ip.isalpha()" 
+    #     # var: "ip.strip().split('.')"
+    #     var: "'.'.join(ip.strip().split('.'))"
 
       
